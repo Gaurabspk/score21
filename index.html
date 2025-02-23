@@ -108,13 +108,13 @@
 
     footer {
       margin-top: 20px;
-      font-size: 0.9em; /* Smaller font size */
+      font-size: 0.9em;
       color: #000;
       text-align: center;
       padding: 10px;
-      background-color: #fff; /* White background */
+      background-color: #fff;
       border-radius: 10px;
-      width: 200px; /* Set a smaller fixed width for the footer */
+      width: 200px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
@@ -130,7 +130,6 @@
       <input type="text" id="name-input" placeholder="Enter your name">
       <button id="start-btn">Start Game</button>
     </div>
-    <div id="welcome-message" style="display: none;"></div>
     <div id="question-container" style="display: none;">
       <p id="question"></p>
       <div id="options">
@@ -155,114 +154,7 @@
       { question: "Has a goalkeeper ever scored in the Premier League?", answer: true },
       { question: "Has any team won the Premier League without losing a single home match?", answer: true },
       { question: "Has any player scored 5 goals in a single Premier League match?", answer: true },
-      { question: "Has any club won more than 20 English league titles?", answer: true },
-      { question: "Has a player ever won the Premier League Golden Boot with fewer than 20 goals?", answer: true },
-      { question: "Has any Premier League team finished a season with zero wins?", answer: false },
-      { question: "Has any player won the PFA Player of the Year award three times?", answer: false },
-      { question: "Has any club lost more than 30 matches in a single Premier League season?", answer: true },
-      { question: "Has a team ever won the Premier League on goal difference?", answer: true },
-      { question: "Has Chelsea ever finished outside the top half of the table in the Premier League era?", answer: true },
-      { question: "Has any Premier League manager won more than 10 league titles?", answer: false },
-      { question: "Has any player scored a hat-trick in under three minutes in the Premier League?", answer: true },
-      { question: "Has a team ever been relegated from the Premier League with a positive goal difference?", answer: false },
-      { question: "Has any club won the Premier League after being bottom at Christmas?", answer: false },
-      { question: "Has any player ever scored in 10 consecutive Premier League matches?", answer: true },
-      { question: "Has any Premier League player provided more than 20 assists in a single season?", answer: true },
-      { question: "Has any Premier League club won more than 100 points in a single season?", answer: true },
-      { question: "Has a club from London won more Premier League titles than Manchester United?", answer: false },
-      { question: "Has any team ever finished a Premier League season with exactly 100 goals?", answer: false },
-      { question: "Has a player from outside Europe won the most Premier League Golden Boots?", answer: false },
-      { question: "Has any player won the Premier League with two different clubs?", answer: true },
-      { question: "Has any manager won the Premier League in their first full season managing in England?", answer: true },
-      { question: "Has any player been sent off in their Premier League debut?", answer: true },
-      { question: "Has any player ever played for Manchester United, Manchester City, Liverpool, and Everton?", answer: true },
-      { question: "Has Tottenham Hotspur won the Premier League?", answer: false },
-      { question: "Has Leicester City won more Premier League titles than Newcastle United?", answer: true },
-      { question: "Has any Premier League player won the FIFA Ballon d'Or while playing in England?", answer: true },
-      { question: "Has any team won the Premier League three times in a row?", answer: true },
-      { question: "Has a promoted team ever finished in the top four?", answer: true },
-      { question: "Has Liverpool ever finished outside the top 10 in the Premier League era?", answer: true },
-      { question: "Has any team won the Premier League while having a negative goal difference?", answer: false },
-      { question: "Has Alan Shearer ever won the Champions League?", answer: false },
-      { question: "Has an English player ever won the Ballon d'Or in the Premier League era?", answer: false },
-      { question: "Has any team other than Manchester United, Manchester City, Chelsea, Arsenal, Leicester, and Blackburn won the Premier League?", answer: false },
-      { question: "Has any club won the Premier League and FA Cup in the same season more than once?", answer: true },
-      { question: "Has any player ever won the Golden Boot in three consecutive Premier League seasons?", answer: true },
-      { question: "Has any Premier League player won both the Golden Boot and Playmaker Award in the same season?", answer: true },
-      { question: "Has any player scored over 200 Premier League goals?", answer: true },
-      { question: "Has any La Liga team gone an entire season unbeaten?", answer: true },
-      { question: "Has Cristiano Ronaldo won more La Liga titles than Lionel Messi?", answer: false },
-      { question: "Has Real Madrid ever been relegated from La Liga?", answer: false },
-      { question: "Has any player won both the Premier League and La Liga Golden Boot?", answer: true },
-      { question: "Has any team other than Real Madrid, Barcelona, or Atlético Madrid won La Liga since 2000?", answer: true },
-      { question: "Has a goalkeeper ever won the Zamora Trophy (best La Liga goalkeeper) while conceding more than 40 goals?", answer: false },
-      { question: "Has Lionel Messi ever scored more than 50 goals in a single La Liga season?", answer: true },
-      { question: "Has any player other than Messi or Ronaldo won the La Liga Golden Boot more than once in the last 20 years?", answer: false },
-      { question: "Has Real Madrid ever finished lower than 10th in La Liga?", answer: true },
-      { question: "Has any La Liga player won the Pichichi Trophy (top scorer) while playing for more than one club in the same season?", answer: false },
-      // Additional Questions
-      { question: "Has any club won the UEFA Champions League more than 14 times?", answer: false },
-      { question: "Has any club won their domestic league 10 times in a row?", answer: true },
-      { question: "Has a team ever won the Champions League without losing a single match?", answer: true },
-      { question: "Has any club scored 100+ goals in a single Premier League season?", answer: true },
-      { question: "Has any team won the treble twice in history?", answer: true },
-      { question: "Has Juventus ever been relegated due to match-fixing?", answer: true },
-      { question: "Has any club won the Copa del Rey, La Liga, and Champions League in the same season?", answer: true },
-      { question: "Has Paris Saint-Germain ever won the Champions League?", answer: false },
-      { question: "Has any club won six trophies in a single calendar year?", answer: true },
-      { question: "Has a team ever won the Champions League final by more than 4 goals?", answer: false },
-      { question: "Has any team ever won back-to-back Champions League titles in the modern era?", answer: true },
-      { question: "Has a club ever won the domestic league with 100 points?", answer: true },
-      { question: "Has any club won the Champions League without conceding a goal in the knockout stages?", answer: true },
-      { question: "Has a club ever lost three consecutive Champions League finals?", answer: false },
-      { question: "Has any team won a top European league title by more than 20 points?", answer: true },
-      { question: "Has a club ever won the Champions League after losing their first group stage game?", answer: true },
-      { question: "Has any club ever won the domestic league unbeaten in the 21st century?", answer: true },
-      { question: "Has a club ever finished a league season without conceding a single goal?", answer: false },
-      { question: "Has any team ever won the FA Cup, League Cup, and Premier League in the same season?", answer: true },
-      { question: "Has Atlético Madrid ever won the Champions League?", answer: false },
-      { question: "Has any club won more than 30 domestic league titles in Europe?", answer: true },
-      { question: "Has a team ever finished a World Cup with all wins and no draws or losses?", answer: true },
-      { question: "Has a club ever reached a Champions League final after finishing 4th in their domestic league?", answer: true },
-      { question: "Has any club played in more than 10 Champions League finals?", answer: true },
-      { question: "Has any team won a top domestic league while scoring fewer than 40 goals?", answer: true },
-      { question: "Has Barcelona ever finished outside the top four in La Liga since 2000?", answer: false },
-      { question: "Has any team won a World Cup final by scoring more than 5 goals?", answer: true },
-      { question: "Has Real Madrid ever lost a Champions League final by more than 3 goals?", answer: false },
-      { question: "Has any club gone from relegation one season to winning the league the next?", answer: false },
-      { question: "Has a team ever been promoted to the top division with a negative goal difference?", answer: true },
-      // Player Records & Stats
-      { question: "Has any player won the Ballon d'Or 8 times?", answer: false },
-      { question: "Has a player ever won the Champions League with three different clubs?", answer: true },
-      { question: "Has any player scored 10 goals in a single World Cup tournament?", answer: true },
-      { question: "Has Lionel Messi ever scored 90+ goals in a single calendar year?", answer: true },
-      { question: "Has Cristiano Ronaldo scored more Champions League goals than any other player?", answer: true },
-      { question: "Has a player ever scored a hat-trick in a Champions League final?", answer: false },
-      { question: "Has any player ever won the Ballon d’Or while playing for an MLS team?", answer: false },
-      { question: "Has any goalkeeper ever won the Ballon d'Or?", answer: true },
-      { question: "Has a player ever scored in every round of the Champions League in one season?", answer: true },
-      { question: "Has a defender ever won the Premier League Golden Boot?", answer: false },
-      { question: "Has any player scored over 1,000 career goals in official matches?", answer: true },
-      { question: "Has any player ever scored a goal in 11 consecutive Champions League matches?", answer: true },
-      { question: "Has a player ever scored 5 goals in a single Champions League knockout match?", answer: true },
-      { question: "Has a defender ever won the FIFA World Player of the Year award?", answer: true },
-      { question: "Has any player scored in multiple World Cup finals?", answer: true },
-      { question: "Has any player ever won the Champions League with 4 different clubs?", answer: false },
-      { question: "Has any outfield player ever played as a goalkeeper in a Champions League match?", answer: true },
-      { question: "Has any player scored 50+ goals in four consecutive seasons?", answer: true },
-      { question: "Has a player ever scored a hat-trick against Barcelona and Real Madrid in the same season?", answer: true },
-      { question: "Has any player ever won the Golden Boot in 4 different leagues?", answer: false },
-      // More Records & Miscellaneous
-      { question: "Has any country won the World Cup 5 times?", answer: true },
-      { question: "Has an African team ever reached the World Cup semi-finals?", answer: true },
-      { question: "Has an Asian team ever reached a World Cup final?", answer: false },
-      { question: "Has any team ever won a World Cup final on penalties twice?", answer: true },
-      { question: "Has any player won the European Golden Shoe 6 times?", answer: true },
-      { question: "Has a football match ever ended with a scoreline of 150+ goals?", answer: true },
-      { question: "Has any country won the Euros and World Cup back-to-back?", answer: true },
-      { question: "Has a team ever won the Europa League three times in a row?", answer: true },
-      { question: "Has any player won the FIFA Puskás Award more than once?", answer: false },
-      { question: "Has a player ever won the World Cup, Champions League, and Ballon d'Or in the same year?", answer: true },
+      // Add more questions here...
     ];
 
     let availableQuestions = [...questions]; // Start with all questions
@@ -284,7 +176,6 @@
     const resultElement = document.getElementById("result");
     const scoreElement = document.getElementById("score");
     const levelElement = document.getElementById("level");
-    const welcomeMessage = document.getElementById("welcome-message");
 
     // Sound effects
     const bellSound = new Audio("https://assets.mixkit.co/active_storage/sfx/2215/2215-preview.mp3");
@@ -383,8 +274,8 @@
         alert("Please enter your name!");
         return;
       }
-      welcomeMessage.textContent = `Welcome, ${playerName}!`;
-      welcomeMessage.style.color = "#ffcc00"; // Change color for visibility
+      // Show popup message
+      alert(`Welcome, ${playerName}! Let's see how much you know about football! ⚽`);
       nameForm.style.display = "none";
       questionContainer.style.display = "block";
       resetGame();
